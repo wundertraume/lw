@@ -1,0 +1,59 @@
+class CfgPatches
+{
+	class CP_fruits_Rus
+	{
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {"DZ_Data","DZ_Gear_Tools","CP_Fruits"};
+	};
+};
+class CfgVehicles
+{
+	class Inventory_Base;
+	class CP_CannabisSkunk: Inventory_Base
+	{
+		displayName = "Каннабис";
+		descriptionShort = "Немного конопли. Разновидность Сканка.";
+	};
+	class CP_CannabisBlue: Inventory_Base
+	{
+		displayName = "Синий Бог";
+		descriptionShort = "Немного конопли. Разновидность Синьки.";
+	};
+	class CP_CannabisKush: Inventory_Base
+	{
+		displayName = "Пурпур";
+		descriptionShort = "Немного конопли. Разновидность Пурпура.";
+	};
+	class CP_CannabisStardawg: Inventory_Base
+	{
+		displayName = "Звездная пыль";
+		descriptionShort = "Немного конопли. Разновидность Stardawg.";
+	};
+	class CP_CannabisFuture: Inventory_Base
+	{
+		displayName = "Твое будущее";
+		descriptionShort = "Немного конопли. Разновидность Future.";
+	};
+	class CP_CannabisS1: Inventory_Base
+	{
+		displayName = "S1";
+		descriptionShort = "Немного конопли. Разновидность S1.";
+	};
+	class CP_CannabisNomad: Inventory_Base
+	{
+		displayName = "Травка Nomad";
+		descriptionShort = "Немного конопли. Разновидность Nomad.";
+	};
+	class CP_CannabisBlackFrost: Inventory_Base
+	{
+		displayName = "Травка Black Frost";
+		descriptionShort = "Немного конопли. Разновидность Black Frost.";
+	};
+	class CP_Tobacco: Inventory_Base
+	{
+		displayName = "Табачный лист";
+		descriptionShort = "Подходит, чтобы свернуть сигаретку.";
+	};
+};

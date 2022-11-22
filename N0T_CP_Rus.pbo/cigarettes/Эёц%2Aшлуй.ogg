@@ -1,0 +1,19 @@
+class CfgPatches
+{
+	class CP_cigarette_Rus
+	{
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {"DZ_Data","DZ_Gear_Tools","CannabisPlus_Cigarette"};
+	};
+};
+class CfgVehicles
+{
+	class Inventory_Base;
+	class CP_Cigarette: Inventory_Base
+	{
+		displayName = "Сигарета";
+		descriptionShort = "Сделана из хорошего табака.";
+	};
+};

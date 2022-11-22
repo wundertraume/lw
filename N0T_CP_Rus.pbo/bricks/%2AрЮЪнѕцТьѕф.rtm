@@ -1,0 +1,74 @@
+class CfgPatches
+{
+	class CP_bricks_Rus
+	{
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {"DZ_Data","DZ_Gear_Tools","CP_Cigarettepacks"};
+	};
+};
+class CfgVehicles
+{
+	class Inventory_Base;
+	class CP_CigarettePack_Empty: Inventory_Base
+	{
+		displayName = "Пустая пачка от сигарет";
+		descriptionShort = "Выглядит потрепанной, но еще сгодится.";
+	};
+	class CigarettePack_Chernamorka: Inventory_Base
+	{
+		displayName = "Пачка Черноморки";
+		descriptionShort = "Пачка отличных сигарет Черноморка.";
+	};
+	class CigarettePack_Merkur: Inventory_Base
+	{
+		displayName = "Пачка Меркур";
+		descriptionShort = "Пачка отличных сигарет Меркур.";
+	};
+	class CigarettePack_Partyzanka: Inventory_Base
+	{
+		displayName = "Пачка Партизанки";
+		descriptionShort = "Пачка сигарет Партизанка.";
+	};
+	class CP_CigarettePack_CannabisSkunk: Inventory_Base
+	{
+		displayName = "Пачка прущих папирос Skunk";
+		descriptionShort = "Из сорта травки Сканк.";
+	};
+	class CP_CigarettePack_CannabisBlue: Inventory_Base
+	{
+		displayName = "Пачка прущих папирос Blue";
+		descriptionShort = "Из Синьки.";
+	};
+	class CP_CigarettePack_CannabisKush: Inventory_Base
+	{
+		displayName = "Пачка прущих папирос Kush";
+		descriptionShort = "Из Пурпурки.";
+	};
+	class CP_CigarettePack_CannabisStardawg: Inventory_Base
+	{
+		displayName = "Пачка прущих папирос Stardawg";
+		descriptionShort = "Из Stardawg.";
+	};
+	class CP_CigarettePack_CannabisFuture: Inventory_Base
+	{
+		displayName = "Пачка прущих папирос Future";
+		descriptionShort = "Из Future. Прямо из будущего!";
+	};
+	class CP_CigarettePack_CannabisS1: Inventory_Base
+	{
+		displayName = "Пачка прущих папирос S1 Hemp";
+		descriptionShort = "Из S1 Hemp.";
+	};
+	class CP_CigarettePack_CannabisNomad: Inventory_Base
+	{
+		displayName = "Пачка прущих папирос Nomad";
+		descriptionShort = "Из Nomad.";
+	};
+	class CP_CigarettePack_CannabisBlackFrost: Inventory_Base
+	{
+		displayName = "Пачка прущих папирос Black Frost";
+		descriptionShort = "Из Black Frost.";
+	};
+};

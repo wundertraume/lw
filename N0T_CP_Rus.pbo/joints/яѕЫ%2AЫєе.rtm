@@ -1,0 +1,54 @@
+class CfgPatches
+{
+	class CP_joints_Rus
+	{
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {"DZ_Data","DZ_Gear_Tools","CannabisPlus_Joint"};
+	};
+};
+class CfgVehicles
+{
+	class Inventory_Base;
+	class CP_JointSkunk: Inventory_Base
+	{
+		displayName = "Джоинт Сканка";
+		descriptionShort = "Джоинт, сделанный из травки.";
+	};
+	class CP_JointBlue: Inventory_Base
+	{
+		displayName = "Джоинт Синьки";
+		descriptionShort = "Джоинт, сделанный из отличной травы сорта Blue God.";
+	};
+	class CP_JointKush: Inventory_Base
+	{
+		displayName = "Джоинт Пурпура";
+		descriptionShort = "Джоинт, сделанный из отличной травы сорта Пурпур.";
+	};
+	class CP_JointStardawg: Inventory_Base
+	{
+		displayName = "Джоинт Звездный";
+		descriptionShort = "Джоинт, сделанный из отличной травы сорта Stardawg.";
+	};
+	class CP_JointFuture: Inventory_Base
+	{
+		displayName = "Джоинт Future";
+		descriptionShort = "Джоинт, сделанный из отличной травы сорта Future.";
+	};
+	class CP_JointS1: Inventory_Base
+	{
+		displayName = "Джоинт S1";
+		descriptionShort = "Джоинт, сделанный из отличной травы сорта S1.";
+	};
+	class CP_JointNomad: Inventory_Base
+	{
+		displayName = "Джоинт Nomad";
+		descriptionShort = "Джоинт, сделанный из отличной травы сорта Nomad.";
+	};
+	class CP_JointBlackFrost: Inventory_Base
+	{
+		displayName = "Джоинт Черный Мороз";
+		descriptionShort = "Джоинт, сделанный из отличной травы сорта Black Frost.";
+	};
+};

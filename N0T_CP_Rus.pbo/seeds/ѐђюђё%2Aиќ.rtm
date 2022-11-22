@@ -1,0 +1,105 @@
+class CfgPatches
+{
+	class CP_seeds_Rus
+	{
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {"DZ_Data","DZ_Gear_Tools","CP_Seeds"};
+	};
+};
+class CfgVehicles
+{
+	class SeedBase;
+	class Inventory_Base;
+	class CP_CannabisSeedsSkunk: SeedBase
+	{
+		displayName = "Семена Сканка";
+		descriptionShort = "Семена конопли Сканк.";
+	};
+	class CP_CannabisSeedsBlue: SeedBase
+	{
+		displayName = "Семена Синьки";
+		descriptionShort = "Семена конопли сорта Blue God.";
+	};
+	class CP_CannabisSeedsKush: SeedBase
+	{
+		displayName = "Семена Пурпура";
+		descriptionShort = "Семена конопли сорта Пурпур.";
+	};
+	class CP_CannabisSeedsStardawg: SeedBase
+	{
+		displayName = "Семена Stardawg";
+		descriptionShort = "Семена конопли сорта Stardawg.";
+	};
+	class CP_CannabisSeedsFuture: SeedBase
+	{
+		displayName = "Семена Future";
+		descriptionShort = "Семена конопли сорта Future.";
+	};
+	class CP_CannabisSeedsS1: SeedBase
+	{
+		displayName = "Семена Future";
+		descriptionShort = "Семена конопли сорта S1.";
+	};
+	class CP_CannabisSeedsNomad: SeedBase
+	{
+		displayName = "Семена Nomad";
+		descriptionShort = "Семена конопли сорта Nomad.";
+	};
+	class CP_CannabisSeedsBlackFrost: SeedBase
+	{
+		displayName = "Семена Black Frost";
+		descriptionShort = "Семена конопли сорта Black Frost.";
+	};
+	class CP_TobaccoSeeds: SeedBase
+	{
+		displayName = "Семена табака";
+		descriptionShort = "Семена табака.";
+	};
+	class CP_CannabisSeedsPackSkunk: Inventory_Base
+	{
+		displayName = "Пачка семян Сканка";
+		descriptionShort = "Пачка семян Сканка";
+	};
+	class CP_CannabisSeedsPackBlue: Inventory_Base
+	{
+		displayName = "Пачка семян Синьки";
+		descriptionShort = "Пачка семян Blue God.";
+	};
+	class CP_CannabisSeedsPackKush: Inventory_Base
+	{
+		displayName = "Пачка семян Пурпура";
+		descriptionShort = "Пачка семян Пурпур.";
+	};
+	class CP_CannabisSeedsPackStardawg: Inventory_Base
+	{
+		displayName = "Пачка семян Stardawg";
+		descriptionShort = "Пачка семян Stardawg.";
+	};
+	class CP_CannabisSeedsPackFuture: Inventory_Base
+	{
+		displayName = "Пачка семян Future";
+		descriptionShort = "Пачка семян Future.";
+	};
+	class CP_CannabisSeedsPackS1: Inventory_Base
+	{
+		displayName = "Пачка семян S1";
+		descriptionShort = "Пачка семян S1.";
+	};
+	class CP_CannabisSeedsPackNomad: Inventory_Base
+	{
+		displayName = "Пачка семян Nomad";
+		descriptionShort = "Пачка семян Nomad.";
+	};
+	class CP_CannabisSeedsPackBlackFrost: Inventory_Base
+	{
+		displayName = "Пачка семян Black Frost";
+		descriptionShort = "Пачка семян Black Frost.";
+	};
+	class CP_TobaccoSeedsPack: Inventory_Base
+	{
+		displayName = "Пачка семян табака";
+		descriptionShort = "Пачка семян табака.";
+	};
+};

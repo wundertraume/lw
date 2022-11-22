@@ -1,0 +1,59 @@
+class CfgPatches
+{
+	class CP_plants_Rus
+	{
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {"DZ_Data","DZ_Gear_Tools","CP_Plants"};
+	};
+};
+class CfgVehicles
+{
+	class PlantBase;
+	class CP_Plant_CannabisSkunk: PlantBase
+	{
+		displayName = "Куст травки";
+		descriptionShort = "Растение Конопли.";
+	};
+	class CP_Plant_CannabisBlue: PlantBase
+	{
+		displayName = "Куст Синьки";
+		descriptionShort = "Растение Конопли.";
+	};
+	class CP_Plant_CannabisKush: PlantBase
+	{
+		displayName = "Куст Пурпура";
+		descriptionShort = "Растение Конопли.";
+	};
+	class CP_Plant_CannabisStardawg: PlantBase
+	{
+		displayName = "Куст Stardawg";
+		descriptionShort = "Растение Конопли.";
+	};
+	class CP_Plant_CannabisFuture: PlantBase
+	{
+		displayName = "Куст Future";
+		descriptionShort = "Растение Конопли.";
+	};
+	class CP_Plant_CannabisS1: PlantBase
+	{
+		displayName = "Куст S1";
+		descriptionShort = "Растение Конопли.";
+	};
+	class CP_Plant_CannabisNomad: PlantBase
+	{
+		displayName = "Куст Nomad";
+		descriptionShort = "Растение Конопли.";
+	};
+	class CP_Plant_CannabisBlackFrost: PlantBase
+	{
+		displayName = "Куст Black Frost";
+		descriptionShort = "Растение Конопли.";
+	};
+	class CP_Plant_Tobacco: PlantBase
+	{
+		displayName = "Табачный куст";
+		descriptionShort = "Растение табак.";
+	};
+};

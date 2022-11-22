@@ -1,0 +1,27 @@
+class CfgPatches
+{
+	class N0T_CP_RUS
+	{
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {"DZ_Data","CP_scripts"};
+	};
+};
+class CfgMods
+{
+	class N0T_CP_Rus
+	{
+		dir = "N0T_CP_Rus";
+		hideName = 1;
+		hidePicture = 1;
+		name = "N0T_CP_Rus";
+		credits = "N0TAlone#6666";
+		author = "N0TAlone#6666";
+		authorID = "0";
+		version = "1.0";
+		extra = 0;
+		type = "mod";
+		dependencies[] = {""};
+	};
+};

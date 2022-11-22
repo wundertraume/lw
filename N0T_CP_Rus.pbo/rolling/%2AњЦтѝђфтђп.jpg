@@ -1,0 +1,19 @@
+class CfgPatches
+{
+	class CP_rolling_Rus
+	{
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {"DZ_Data","DZ_Gear_Tools","CP_Rollingpaper"};
+	};
+};
+class CfgVehicles
+{
+	class Inventory_Base;
+	class CP_RollingPapers: Inventory_Base
+	{
+		displayName = "Пачка бумаги для табака";
+		descriptionShort = "Пачка старой бумаги для табака";
+	};
+};

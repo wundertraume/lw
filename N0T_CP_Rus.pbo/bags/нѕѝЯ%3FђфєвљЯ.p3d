@@ -1,0 +1,54 @@
+class CfgPatches
+{
+	class CP_Bags_Rus
+	{
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {"DZ_Data","DZ_Gear_Tools","CP_Bags"};
+	};
+};
+class CfgVehicles
+{
+	class Inventory_Base;
+	class CP_CannabisBagSkunk: Inventory_Base
+	{
+		displayName = "Пакетик Сканка";
+		descriptionShort = "Около унции Сканка.";
+	};
+	class CP_CannabisBagBlue: Inventory_Base
+	{
+		displayName = "Пакетик Синего Бога";
+		descriptionShort = "Около унции грамма Синьки.";
+	};
+	class CP_CannabisBagKush: Inventory_Base
+	{
+		displayName = "Пакетик Пурпурного Куша";
+		descriptionShort = "Около унции грамма Пурпура.";
+	};
+	class CP_CannabisBagStardawg: Inventory_Base
+	{
+		displayName = "Пакетик Stardawg";
+		descriptionShort = "Около унции Stardawg.";
+	};
+	class CP_CannabisBagFuture: Inventory_Base
+	{
+		displayName = "Пакетик Future";
+		descriptionShort = "Около унции 28.3 грамма Future.";
+	};
+	class CP_CannabisBagS1: Inventory_Base
+	{
+		displayName = "Пакетик S1 Hemp";
+		descriptionShort = "Около унции S1 Hemp.";
+	};
+	class CP_CannabisBagNomad: Inventory_Base
+	{
+		displayName = "Пакетик Nomad";
+		descriptionShort = "Около унции Nomad.";
+	};
+	class CP_CannabisBagBlackFrost: Inventory_Base
+	{
+		displayName = "Пакетик Black Frost";
+		descriptionShort = "Около унции Black Frost.";
+	};
+};
